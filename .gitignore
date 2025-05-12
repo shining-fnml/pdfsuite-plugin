@@ -1,0 +1,6 @@
+*/__pycache__/
+.*.swp
+misc/
+nautilus/pdfsuite
+thunar/pdfsuite
+var/
