@@ -8,7 +8,7 @@ Homepage: https://github.com/shining-fnml/pdfsuite-plugin
 
 Package: pdfsuite
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
+Depends: ${python3:Depends}, ${misc:Depends}, ghostscript, poppler-utils
 Description: A common library for PDF plugins running under both Thunar and Nautilus
  This package provides a Python library to manage PDF files and integrates
  with file managers like Thunar and Nautilus.

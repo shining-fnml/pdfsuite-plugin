@@ -1,6 +1,7 @@
 */__pycache__/
 .*.swp
 .pybuild/
+build/
 debian/.debhelper/
 debian/debhelper-build-stamp
 debian/files
