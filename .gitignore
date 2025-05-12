@@ -1,6 +1,13 @@
 */__pycache__/
 .*.swp
+.pybuild/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/pdfsuite.substvars
+debian/pdfsuite/
 misc/
 nautilus/pdfsuite
+pdfsuite.egg-info/
 thunar/pdfsuite
 var/

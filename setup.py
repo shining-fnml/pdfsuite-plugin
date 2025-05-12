@@ -9,7 +9,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Shining",
-    author_email="shining@linuxcondom.net"
+    author_email="shining@linuxcondom.net",
     url="https://github.com/shining-fnml/pdfsuite-plugin",
     license="GPL-3.0",
     classifiers=[
