@@ -12,3 +12,17 @@ Depends: ${python3:Depends}, ${misc:Depends}, ghostscript, poppler-utils
 Description: A common library for PDF plugins running under both Thunar and Nautilus
  This package provides a Python library to manage PDF files and integrates
  with file managers like Thunar and Nautilus.
+
+Package: pdfsuite-nautilus
+Architecture: all
+Depends: pdfsuite, nautilus-python, ${misc:Depends}
+Description: PDF extension for Nautilus file manager
+ This package provides a Python extension for managing PDF files directly
+ within the Nautilus file manager.
+
+Package: pdfsuite-thunar
+Architecture: all
+Depends: pdfsuite, thunarx-python, ${misc:Depends}
+Description: PDF extension for Thunar file manager
+ This package provides a Python extension for managing PDF files directly
+ within the Thunar file manager.
