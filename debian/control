@@ -15,7 +15,7 @@ Description: A common library for PDF plugins running under both Thunar and Naut
 
 Package: pdfsuite-nautilus
 Architecture: all
-Depends: pdfsuite, nautilus-python, ${misc:Depends}
+Depends: pdfsuite, python3-nautilus, ${misc:Depends}
 Description: PDF extension for Nautilus file manager
  This package provides a Python extension for managing PDF files directly
  within the Nautilus file manager.
